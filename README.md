@@ -6,7 +6,7 @@ A 'hello-world' REST-API for testing multi-arch images in docker (swarm mode).
 
     GET /env
     GET /health?full=true
-    POST /toggle-healts
+    POST /toggle-health
 
 ## Build docker images
 
