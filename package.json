@@ -1,0 +1,23 @@
+{
+  "name": "node-hello-world",
+  "version": "2.0.0",
+  "description": "A 'hello-world' REST-API for testing multi-arch images in docker (swarm mode).",
+  "main": "index.js",
+  "repository": "https://github.com/panitz/node-hello-world.git",
+  "author": "Thorsten Panitz <th.panitz@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "nodemon index",
+    "push": "./push.sh",
+    "push-multiarch": "./push-multiarch.sh",
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "4.15.4",
+    "morgan": "1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}

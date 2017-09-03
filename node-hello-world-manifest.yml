@@ -1,0 +1,13 @@
+image: panitz/node-hello-world:2.0.0
+tags: ['2.0', '2', 'latest']
+manifests:
+  -
+    image: panitz/node-hello-world-amd64:2.0.0
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: panitz/node-hello-world-arm:2.0.0
+    platform:
+      architecture: arm
+      os: linux
